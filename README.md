@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 If you prefer to install the libraries manually, use:
 ```bash
-pip install pygame opencv-python mediapipe numpy
+pip install pygame opencv-python numpy mediapipe==0.10.9
 ```
 
 ## 🎯 How to Play
