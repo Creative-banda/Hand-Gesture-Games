@@ -1,31 +1,38 @@
 # Hand-Controlled Flappy Bird with OpenCV
 
-A unique twist on the classic Flappy Bird game where players control the bird using hand gestures captured through their webcam. The game features real-time hand tracking, player statistics, and a high score system.
+A unique twist on the classic Flappy Bird game where players control the bird using hand gestures captured through their webcam. The game features real-time hand tracking, player statistics, and a reaction capture system.
 
 ## 🎮 Features
 
 - **Hand Gesture Control**: Control the bird's movement naturally with your hand movements
 - **Real-time Skeleton Tracking**: Watch your hand movements represented by a skeleton overlay
 - **Progressive Difficulty**: Game speed increases over time for an added challenge
-- **High Score System**: Top 5 players' scores are saved and displayed
+- **High Score System**: Top players' scores are saved and displayed
 - **Player Recognition**: Enter your name before playing to track your achievements
 - **Reaction Capture**: Automatically captures your reaction when the game ends
 
 ## 🛠️ Prerequisites
 
 - Python 3.x
-- OpenCV
-- NumPy
-- MediaPipe (for hand tracking)
+- Webcam
 
 ## 📥 Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Creative-banda/Flappy_Bird.git
-cd Flappy_Bird
+git clone https://github.com/Creative-banda/Hand-Gesture-Games.git
+cd Hand-Gesture-Games
 ```
 
+2. Install the required libraries:
+```bash
+pip install -r requirements.txt
+```
+
+If you prefer to install the libraries manually, use:
+```bash
+pip install pygame opencv-python mediapipe numpy
+```
 
 ## 🎯 How to Play
 
@@ -47,14 +54,12 @@ python main.py
 - **Hand Up**: Bird flies upward
 - **Hand Down**: Bird descends
 - **ESC**: Exit game
-- **R**: Restart game after death
 
 ## 🏆 High Score System
 
-- The game maintains a leaderboard of the top 5 players
+- The game maintains a leaderboard of the top 10 players
 - Scores are automatically saved when you beat a previous high score
 - High scores are displayed on the intro screen
-
 
 ## 🔧 Technical Implementation
 
