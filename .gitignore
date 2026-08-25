@@ -1,3 +1,6 @@
 .DS_Store
 react
 env/
+*.mp4
+preview/
+__pycache__
